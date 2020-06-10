@@ -1,0 +1,76 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;;
+}
+.login-container {
+    display: flex;
+    height: 100vh;
+}
+
+.header-form-container{
+    border: 1px solid #f3d9b4;
+    border-radius: 10px 10px;
+    background-color: snow;
+    box-shadow: 0 2px 2px white;
+    padding: inherit;
+    width: 75%;
+}
+.main-form-container{
+    display: flex;
+    width: 100%;
+    flex-flow: column;
+    line-height: 3rem;
+    max-width: 500px;
+    padding:15px;
+}
+.main-form-container input{
+    padding: 5px 15px;
+    outline: none;
+    
+}
+.login-banner-container{
+    background: url('../image/login.jpg');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+ .login-form-container {
+    background-color: #f3c17c;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+ 
+ .login-form-container .header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-between;
+    padding: 15px;
+}
+.form-content{
+    margin-bottom: 15px;
+}
+.checkbox-signin{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input[type="text"],
+input[type="password"] {
+    outline: none;
+}
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: whitesmoke;
+  outline: none;
+  border: 1px solid #dae0e5;
+}
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  background-color: #9c9297;
+  color: #fff;
+}
+.footer{
+    margin-left: 13px;
+}
